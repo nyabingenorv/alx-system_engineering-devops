@@ -1,15 +1,1 @@
-https://imgur.com/a/0Ct5vrG
 
-- Firewalls are added to restrict access to servers, ensuring only authorized traffic is allowed. They act as a security barrier.
-- SSL/TLS (HTTPS) is used to secure traffic between clients and the web servers, ensuring data confidentiality and integrity.
-- Monitoring is used to detect issues, analyze performance, and provide insights for optimization.
-- Monitoring Tools collect data by deploying monitoring clients on web and application servers, capturing logs and metrics.
-
-
-Issues
-
-- terminating SSL at the  doesn't provide end-to-end encryption. Sensitive data is decrypted at the load balancer, potentially exposing it to internal threats.
-
-- If the MySQL server fails it can lead to data loss or downtime.
-
-- Using identical components across servers may lead to a single point of failure affecting all servers.
