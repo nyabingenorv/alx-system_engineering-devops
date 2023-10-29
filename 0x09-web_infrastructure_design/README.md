@@ -26,4 +26,8 @@ The Domain Name System, translates human readable domain names for example, <www
 
 ### Load balancer
 
+a device that sits between the user and the server group and acts as an invisible facilitator, ensuring that all resource servers are used equally
+
 ### Monitoring
+
+activity that involves testing a website or web service for availability, performance, or function. A Website Monitoring service checks and verifies that the site is up and working and site visitors can use the site as expected.
