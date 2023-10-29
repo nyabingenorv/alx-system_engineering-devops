@@ -1,4 +1,6 @@
-## Issues with The infrastructure
+https://imgur.com/a/zwqrBbI
+
+Issues with The infrastructure
 
 - Since there's only one server, the website would be experiencing a downtime during maintenance.
 - If the MySQL database server is down, the entire site would be down.
