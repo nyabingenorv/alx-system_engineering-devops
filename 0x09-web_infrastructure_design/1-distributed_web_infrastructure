@@ -1,4 +1,6 @@
 
+https://imgur.com/a/G9oSE7g
+
 Issues with this Infrastructure:
 - If the load balancer fails, traffic won't be distributed, causing downtime.
 - If the web server fails, users won't be able to access the website.
