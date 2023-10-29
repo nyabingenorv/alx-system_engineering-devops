@@ -1,0 +1,5 @@
+## Issues with The infrastructure
+
+- Since there's only one server, the website would be experiencing a downtime during maintenance.
+- If the MySQL database server is down, the entire site would be down.
+- The infrastructure is hard to scale becauses one server contains all the codebase and resource.
