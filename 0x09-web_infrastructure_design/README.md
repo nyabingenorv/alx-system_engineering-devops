@@ -1,9 +1,8 @@
 # Web infrastructure design
 
 Diagram(charts) to mind map and track various web stack projects
-Terms and aronims used
 
-## Core concepts Learnt
+## Core concepts Terms and acronims used
 
 1; Server
  a computer hardware or software that is accessible only by a network. A server can be physical or virtual. A server runs an operating system eg Linux or windows.
