@@ -1,0 +1,8 @@
+
+Issues with this Infrastructure:
+- If the load balancer fails, traffic won't be distributed, causing downtime.
+- If the web server fails, users won't be able to access the website.
+- Without a firewall, the infrastructure is vulnerable to unauthorized access or attacks.
+- Without HTTPS, data in transit is not encrypted, risking data interception and compromising user privacy.
+- Monitoring tools should be added to detect and address issues such as server load, and application errors.
+- implementing redundancy and failover mechanisms for load balancing, adding HTTPS, and setting up monitoring systems to ensure high availability.
