@@ -2,3 +2,4 @@
 # Bash script that uses ssh to connect to my server
 
 ssh -i ~/.ssh/school ubuntu@100.25.164.130
+
