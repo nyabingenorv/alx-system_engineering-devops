@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' \
+-e "ssh -i ~/.ssh/your-key.pem" \
+. ubuntu@ip-address:~/app
