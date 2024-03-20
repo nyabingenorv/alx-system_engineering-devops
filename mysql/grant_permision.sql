@@ -2,3 +2,4 @@
 -- Make sure that holberton_user has permission to check the primary/replica status of your databases.
 -- In addition to that, make sure that task #3 of your SSH project is completed for web-01 and web-02. You will likely need to add the public key to web-02 as you only added it to web-01 for this project. The checker will connect to your servers to check MySQL status
 CREATE USER 'holberton_user'@'localhost'IDENTIFIED BY 'projectcorrection280hbtn';
+GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost';
