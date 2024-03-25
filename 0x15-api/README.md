@@ -27,12 +27,15 @@
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      | -->
 --------
-Examples:
 
-a GET request to /user/ returns a list of registered users on a system
-a POST request to /user/ creates a user with the ID 123 using the body data (see 4. below). The response returns the ID.
-a PUT request to /user/123 updates user 123 with the body data (see 4. below)
-a GET request to /user/123 returns the details of user 123
-a DELETE request to /user/123 deletes user 123
-HTTP headers. Information such as authentication tokens or cookies can be contained in the HTTP request header.
-Body Data. Data is normally transmitted in the HTTP body in an identical way to HTML <form> submissions or by sending a single JSON-encoded data string.
+##### Examples
+
+1. a GET request to /user/ returns a list of registered users on a system
+2. a POST request to /user/ creates a user with the ID 123 using the body data (see 4. below). The response returns the ID.
+3. a PUT request to /user/123 updates user 123 with the body data (see 4. below)
+4. a GET request to /user/123 returns the details of user 123
+5. a DELETE request to /user/123 deletes user 123
+
+**HTTP headers.** Information such as authentication tokens or cookies can be contained in the HTTP request header.
+
+**Body Data** Data is normally transmitted in the HTTP body in an identical way to HTML <form> submissions or by sending a single JSON-encoded data string.
