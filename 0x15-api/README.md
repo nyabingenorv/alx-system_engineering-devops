@@ -15,13 +15,18 @@
 2. *The HTTP method*. Differing HTTP methods can be used on any endpoint which map to application create, read, update, and delete (CRUD) operations:
 
 ----------
-|HTTP method| CRUD |Action|
-|-----------|------|------|
-GET |read| returns requested data|
-POST| create| creates a new record|
-PUT or PATCH| update| updates an existing record|
-DELETE| delete| deletes an existing record|
+|HTTP method    | CRUD  |Action                     |
+| :---          |:----: |          ---:            |
+|GET            |read   | returns requested data    |
+|POST           | create| creates a new record      |
+|PUT or PATCH   | update| updates an existing record|
+|DELETE         | delete| deletes an existing record|
 
+<!-- | Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      | -->
+--------
 Examples:
 
 a GET request to /user/ returns a list of registered users on a system
