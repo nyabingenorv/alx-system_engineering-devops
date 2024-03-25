@@ -14,7 +14,7 @@
 
 2. *The HTTP method*. Differing HTTP methods can be used on any endpoint which map to application create, read, update, and delete (CRUD) operations:
 |HTTP method| CRUD |Action|
-|---|----|-----|
+|-----------|------|------|
 GET |read| returns requested data|
 POST| create| creates a new record|
 PUT or PATCH| update| updates an existing record|
