@@ -13,6 +13,8 @@
 1. *An Endpoint URL*. An application implementing a RESTful API will define one or more URL endpoints with a domain, port, path, and/or query string — for example, <https://mydomain/user/123?format=json>.
 
 2. *The HTTP method*. Differing HTTP methods can be used on any endpoint which map to application create, read, update, and delete (CRUD) operations:
+
+----------
 |HTTP method| CRUD |Action|
 |-----------|------|------|
 GET |read| returns requested data|
