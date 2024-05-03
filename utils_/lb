@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Bash script that uses ssh to connect to my server
 
-ssh -i ~/.ssh/school ubuntu@100.24.74.154
+ssh -i ~/.ssh/school ubuntu@107.23.94.38
 
